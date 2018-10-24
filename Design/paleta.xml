@@ -1,0 +1,26 @@
+<palette>
+<url>
+http://paletton.com/#uid=33w0u0kuf++io+uoo+XLo+VZBKu
+</url>
+<colorset id="primary" title="Primary color">
+<color id="primary-0" nr="0" rgb="1DA1FF" r="29" g="161" b="255" r0="0.114" g0="0.631" b0="1"/>
+<color id="primary-1" nr="1" rgb="75C5FE" r="117" g="197" b="254" r0="0.459" g0="0.773" b0="0.996"/>
+<color id="primary-2" nr="2" rgb="49B3FF" r="73" g="179" b="255" r0="0.286" g0="0.702" b0="1"/>
+<color id="primary-3" nr="3" rgb="0898FF" r="8" g="152" b="255" r0="0.031" g0="0.596" b0="1"/>
+<color id="primary-4" nr="4" rgb="017AD0" r="1" g="122" b="208" r0="0.004" g0="0.478" b0="0.816"/>
+</colorset>
+<colorset id="secondary-1" title="Secondary color (1)">
+<color id="secondary-1-0" nr="0" rgb="FFC10E" r="255" g="193" b="14" r0="1" g0="0.757" b0="0.055"/>
+<color id="secondary-1-1" nr="1" rgb="FFDA6D" r="255" g="218" b="109" r0="1" g0="0.855" b0="0.427"/>
+<color id="secondary-1-2" nr="2" rgb="FFCD3D" r="255" g="205" b="61" r0="1" g0="0.804" b0="0.239"/>
+<color id="secondary-1-3" nr="3" rgb="FFBE00" r="255" g="190" b="0" r0="1" g0="0.745" b0="0"/>
+<color id="secondary-1-4" nr="4" rgb="FFBE00" r="255" g="190" b="0" r0="1" g0="0.745" b0="0"/>
+</colorset>
+<colorset id="secondary-2" title="Secondary color (2)">
+<color id="secondary-2-0" nr="0" rgb="FF4F0E" r="255" g="79" b="14" r0="1" g0="0.31" b0="0.055"/>
+<color id="secondary-2-1" nr="1" rgb="FF946D" r="255" g="148" b="109" r0="1" g0="0.58" b0="0.427"/>
+<color id="secondary-2-2" nr="2" rgb="FF713D" r="255" g="113" b="61" r0="1" g0="0.443" b0="0.239"/>
+<color id="secondary-2-3" nr="3" rgb="FF4500" r="255" g="69" b="0" r0="1" g0="0.271" b0="0"/>
+<color id="secondary-2-4" nr="4" rgb="FF4500" r="255" g="69" b="0" r0="1" g0="0.271" b0="0"/>
+</colorset>
+    </palette>
