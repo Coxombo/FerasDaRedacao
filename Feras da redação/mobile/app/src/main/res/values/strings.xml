@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">Feras da Redação</string>
+    <string name="quem_voc">Who are you?</string>
+    <string name="toque_aqui_se_voc_um_aluno">Tap here if you are a student</string>
+    <string name="toque_aqui_se_voc_um_professor">Tap here if you are a teacher</string>
+    <string name="nome_completo">Nome completo</string>
+    <string name="e_mail">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="confirme_a_senha">Confirme a senha</string>
+    <string name="facebook">Facebook</string>
+    <string name="gmail">Gmail</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="li_e_aceito_os_termos_de_uso_e_privacidade">Li e aceito os termos de uso e privacidade.</string>
+    <string name="usuario">Usuário</string>
+    <string name="nao_e_cadastrado_clique_aqui">Não é cadastrado? Clique aqui!</string>
+    <string name="login">Login</string>
+</resources>

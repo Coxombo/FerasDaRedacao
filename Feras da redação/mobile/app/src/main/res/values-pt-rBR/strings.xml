@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="quem_voc">Quem é você?</string>
+    <string name="toque_aqui_se_voc_um_aluno">Toque aqui se você é um aluno</string>
+    <string name="toque_aqui_se_voc_um_professor">Toque aqui se você é um professor</string>
+    <string name="nome_completo">Nome completo</string>
+    <string name="e_mail">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="confirme_a_senha">Confirme a senha</string>
+</resources>

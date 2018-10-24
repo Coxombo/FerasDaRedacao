@@ -1,0 +1,15 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<resources>
+    <color name="primaryColor">#1da1ff</color>
+    <color name="primaryLightColor">#6fd2ff</color>
+    <color name="primaryDarkColor">#0073cb</color>
+    <color name="secondaryColor">#ff4f0e</color>
+    <color name="secondaryLightColor">#ff8342</color>
+    <color name="secondaryDarkColor">#c30800</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="facebookColor">#3b5998</color>
+    <color name="gmailColor">#d34836</color>
+    <color name="colorWhite">#ffffff</color>
+
+</resources>

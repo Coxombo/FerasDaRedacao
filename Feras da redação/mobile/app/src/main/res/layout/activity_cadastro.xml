@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/masuk10"
+    tools:context=".CadastroActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <TextView
+        android:id="@+id/tv_quemVc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quem_voc"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="32sp"
+        android:visibility="gone"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+
+    <ImageView
+        android:id="@+id/iv_aluno"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/toque_aqui_se_voc_um_aluno"
+        android:visibility="gone"
+        app:srcCompat="@mipmap/ic_aluno"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <ImageView
+        android:id="@+id/iv_prof"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/toque_aqui_se_voc_um_professor"
+        android:visibility="gone"
+        app:srcCompat="@mipmap/ic_prof"
+        tools:layout_editor_absoluteY="217dp" />
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="126dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="128dp">
+
+        <EditText
+            android:id="@+id/et_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/borda_edittext"
+            android:ems="15"
+            android:hint="@string/nome_completo"
+            android:inputType="textPersonName"
+            android:paddingLeft="14dp"
+            android:textColorHint="@color/colorWhite" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/borda_edittext"
+            android:ems="15"
+            android:hint="@string/e_mail"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="14dp"
+            android:textColorHint="@color/colorWhite" />
+
+        <EditText
+            android:id="@+id/et_senha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/borda_edittext"
+            android:ems="15"
+            android:hint="@string/senha"
+            android:inputType="textPassword"
+            android:paddingLeft="14dp"
+            android:textColorHint="@color/colorWhite" />
+
+        <EditText
+            android:id="@+id/et_confir_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/borda_edittext"
+            android:ems="15"
+            android:hint="@string/confirme_a_senha"
+            android:inputType="textPassword"
+            android:paddingLeft="14dp"
+            android:textColorHint="@color/colorWhite" />
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/bt_facebook"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="105dp"
+        android:layout_marginStart="45dp"
+        android:background="@drawable/bt_facebook_borda"
+        android:text="@string/facebook"
+        tools:layout_editor_absoluteX="44dp" />
+
+    <Button
+        android:id="@+id/bt_gmail"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/bt_facebook"
+        android:layout_marginEnd="53dp"
+        android:background="@drawable/bt_gmail_borda"
+        android:text="@string/gmail"
+        tools:layout_editor_absoluteX="218dp" />
+
+    <Button
+        android:id="@+id/bt_cadastrar"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:background="@drawable/borda_bt_cadastrar"
+        android:text="@string/cadastrar"
+        tools:layout_editor_absoluteX="101dp" />
+
+    <CheckBox
+        android:id="@+id/cb_termos"
+        android:layout_width="61dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tableLayout"
+        android:layout_toStartOf="@+id/bt_cadastrar" />
+
+    <TextView
+        android:id="@+id/tv_termosDeUso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cb_termos"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:text="@string/li_e_aceito_os_termos_de_uso_e_privacidade"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="127dp"
+        android:layout_height="123dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher_foreground" />
+
+</RelativeLayout>
