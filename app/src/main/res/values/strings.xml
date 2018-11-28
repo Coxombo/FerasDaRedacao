@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Feras da Redação</string>
+    <string name="img_qualquer">Imagem relacionada ao artigo</string>
+    <string name="menuItemPerfil">Perfil</string>
+    <string name="menuItemArtigos">Artigos</string>
+    <string name="menuItemAulas">Aulas</string>
+    <string name="sign_in_cancelled">Tente novamente</string>
+    <string name="no_internet_connection">Sem internet</string>
+    <string name="unknown_error">Erro, tente novamente</string>
+    <string name="bem_vindo">Bem-vindo de volta!</string>
+    <string name="facebook_application_id" translatable="false">201745610701119</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb201745610701119</string>
+    <string name="todo">TODO</string>
+    <string name="deletar">Deletar</string>
+    <string name="sair">Sair</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#1da1ff</color>
+    <color name="primaryLightColor">#6fd2ff</color>
+    <color name="primaryDarkColor">#0073cb</color>
+    <color name="secondaryColor">#ff4f0e</color>
+    <color name="secondaryLightColor">#ff8342</color>
+    <color name="secondaryDarkColor">#c30800</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="headings">#ff4f0e</color>
+    <color name="solidCircle">#ff4f0e</color>
+    <color name="circleBorder">#ff8342</color>
+    <color name="colorWhite">#ffffff</color>
+
+
+    <color name="black_overlay">#66000000</color>
+</resources>
